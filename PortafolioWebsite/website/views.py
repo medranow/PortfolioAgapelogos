@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("Agapelogos Portfolio")
+
+def test(request):
+    return HttpResponse("this is a test")
