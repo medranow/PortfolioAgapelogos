@@ -4,7 +4,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-    return HttpResponse("Agapelogos Portfolio")
-
-def test(request):
-    return HttpResponse("this is a test")
+    return render(request, "website/index.html")
