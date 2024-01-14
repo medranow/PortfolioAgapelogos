@@ -1,9 +1,9 @@
 /* hero background image */
 .image {
-    height: 60hv;
-    background: url('ocean.jpg');
+    height: 200vh;
+    background: url('https://storage.needpix.com/rsynced_images/sea-1547609_1280.jpg');
     background-size: cover;
-    position: bottom;
+    position: relative;
 }
 
 /* text css over hero image */
