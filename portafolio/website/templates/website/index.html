@@ -1,4 +1,5 @@
 {% extends "website/layout.html" %}
+{% load static %}
 
 {% block title %}
     Sitio
@@ -6,13 +7,32 @@
 
 {% block body %}
  <!--main banner-->
- <section class="image" id="principal">
+ <section class="image" id="home">
     <div class="container-fluid">
         <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
             <h2 class="hero_title">Agapelogos por Walter Medrano</h2>
             <p class="hero_desc">Soy un fotógrafo y videografo en Guatemala</p>
         </div>
+        </div>
+    </div>
+</section>
+
+<!-- about section -->
+<section id="about">
+    <div class="container mt-4 pt-4">
+        <h1 class="text-center">Sobre mi</h1>
+        <div class="row mt-4">
+            <div class="col-lg-4">
+                <img src="{% static 'website/images/head.jpg' %}" alt="My image" class="img-thumbnail">
+            </div>
+
+            <div class="col-lg-8">
+                <p>
+                    Soy Walter Medrano, y me considero un creador de contenido. He pasado mis últimos 6 años perfeccionando mi técnica.
+                </p>
+            </div>
+
         </div>
     </div>
 </section>
