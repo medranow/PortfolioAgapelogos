@@ -9,9 +9,10 @@
 }
 
 /* text css over hero image */
-.hero_title{
+.hero_title {
     font-size: 4.5rem;
 }
+
 .hero_desc {
     font-size: 2rem;
 }
@@ -22,6 +23,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+/* Text of bio*/
+
+.bio-text {
+    font-size: 1.2rem;
 }
 
 .imageAbout {
