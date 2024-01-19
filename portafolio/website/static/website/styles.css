@@ -1,7 +1,7 @@
 /* hero background image */
 .image {
     height: 100vh;
-    background: url('images/');
+    background: url('images/sky.jpg');
     background-size: cover;
     position: relative;
 }
@@ -41,7 +41,7 @@
 }
 
 .icons {
-    font-size: 80px;
+    font-size: 25px;
     cursor: pointer;
     border: 1px solid silver
 }
