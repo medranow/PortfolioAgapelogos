@@ -29,7 +29,7 @@
 /* Text of bio*/
 
 .bio-text {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .imageAbout {
@@ -70,12 +70,35 @@
     position: relative;
 }
 
-#portfolio, #about {
-    margin-top: 1rem;
+/* Margins and padding for sections*/
+#about {
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+
+#portfolio {
+    margin-top: 4rem;
     padding-top: 1rem;
 }
 
 /* Card images */
 .card {
-    width: 25rem;
+    width: 40rem;
+}
+
+/*Size of card*/
+.card-text {
+    font-size: 20px;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+#footer-title {
+    font-size: 30px;
+}
+
+.footer-text {
+    font-size: 20px;
 }
