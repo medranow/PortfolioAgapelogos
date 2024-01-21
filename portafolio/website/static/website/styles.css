@@ -3,6 +3,7 @@
 /* hero background image */
 .image {
     height: 100vh;
+    width: 100%;
     background: url('images/sky.jpg');
     background-size: cover;
     position: relative;
@@ -32,7 +33,9 @@
 }
 
 .imageAbout {
-    width: 10%;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 2.5em;
 }
 
 /* Icons */
@@ -65,4 +68,14 @@
     background: url('images/sy.jpg');
     background-size: cover;
     position: relative;
+}
+
+#portfolio, #about {
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+/* Card images */
+.card {
+    width: 25rem;
 }
