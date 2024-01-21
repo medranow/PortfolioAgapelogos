@@ -29,13 +29,13 @@
 /* Text of bio*/
 
 .bio-text {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .imageAbout {
     width: 400px;
     height: 400px;
-    margin-bottom: 2.5em;
+    margin-bottom: 4em;
 }
 
 /* Icons */
@@ -72,12 +72,12 @@
 
 /* Margins and padding for sections*/
 #about {
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding-top: 1rem;
 }
 
 #portfolio {
-    margin-top: 4rem;
+    margin-top: 2rem;
     padding-top: 1rem;
 }
 
@@ -96,9 +96,9 @@
 }
 
 #footer-title {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .footer-text {
-    font-size: 20px;
+    font-size: 25px;
 }
