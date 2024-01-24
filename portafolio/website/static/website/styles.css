@@ -76,7 +76,7 @@
 /*Contact image*/
 .contact-image {
     height: 20vh;
-    background: url('images/sy.jpg');
+    background: url('images/heraclitus.jpg');
     background-size: cover;
     position: relative;
 }
@@ -90,11 +90,7 @@
 #portfolio {
     margin-top: 2rem;
     padding-top: 1rem;
-    height: 80vh;
-    width: 100%;
-    background: url('images/athy.jpg');
-    background-size: cover;
-    position: relative;
+    background-color: #e9a078;
 }
 
 /* Card images */
