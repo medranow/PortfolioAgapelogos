@@ -41,7 +41,7 @@
 
 /*Background about section */
 .about-background {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background: url('images/zebra.jpg');
     background-size: cover;
@@ -90,6 +90,11 @@
 #portfolio {
     margin-top: 2rem;
     padding-top: 1rem;
+    height: 80vh;
+    width: 100%;
+    background: url('images/athy.jpg');
+    background-size: cover;
+    position: relative;
 }
 
 /* Card images */
