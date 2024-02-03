@@ -38,8 +38,10 @@ nav {
 /* Text of bio*/
 
 .bio-text {
-    font-size: 1.9em;
+    font-size: 1.7em;
     color: white;
+    margin-bottom: 1em;
+    font-family: Georgia, serif;
 }
 
 .imageAbout {
@@ -50,7 +52,7 @@ nav {
 
 /*Background about section */
 .about-background {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background: url('images/fruit.jpg');
     background-size: cover;
