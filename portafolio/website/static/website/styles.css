@@ -63,6 +63,14 @@ h1 {
     position: relative;
 }
 
+.about-img-cz {
+    height: 80vh;
+    width: 100%;
+    background: url('images/praha.jpg');
+    background-size: cover;
+    position: relative;
+}
+
 
 /* Icons & language */
 .fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-twitch:hover {
