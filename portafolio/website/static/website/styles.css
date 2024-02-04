@@ -5,9 +5,12 @@ nav {
     overflow: scroll;
 }
 
-.navbar-brand {
-    font-size: 20vw;
+/*h1*/
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 3em;
 }
+
 
 /* hero background image */
 .image {
@@ -33,15 +36,16 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-family: Helvetica, sans-serif;
 }
 
 /* Text of bio*/
 
 .bio-text {
-    font-size: 1.7em;
+    font-size: 1.64em;
     color: white;
-    margin-bottom: 1em;
-    font-family: Georgia, serif;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4em;
 }
 
 .imageAbout {
@@ -74,7 +78,7 @@ nav {
 }
 
 #footer {
-    background-color: #808080;
+    background-color: #4d6764;
     text-align: center;
     margin-bottom: 0.5em;
 }
@@ -86,11 +90,12 @@ nav {
 
 /*Contact image and letter color*/
 .contact-image {
-    height: 20vh;
+    height: 22vh;
     background: url('images/leafs.jpg ');
     background-size: cover;
     position: relative;
     margin-bottom: 0rem;
+    padding-bottom: 4rem;
 }
 
 .contact-info {
@@ -100,7 +105,7 @@ nav {
 /*Color of portfoli letter*/
 .portfolioHead {
     color: black;
-    font-size: 45px;
+    font-size: 3em;
     text-shadow: 1px 1px 0.5px white;
 }
 
@@ -113,35 +118,42 @@ nav {
 .card-text {
     font-size: 20px;
     color: white;
+    font-family: Helvetica, sans-serif;
 }
 
 .card-title {
     font-size: 30px;
     color: white;
+    font-family: Helvetica, sans-serif;
 }
 
 .card-body {
-    background: #4d6764;
+    background: #103d39;
 }
 
 /*Size of letter in footer*/
 .footer-title {
     font-size: 40px;
+    font-family: Helvetica, sans-serif;
 }
 
 .footer-text {
     font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.2em;
 }
 
 /*Navbar color*/
 .nav-link {
     color: white;
-    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.45em;
 }
 
 .navbar-brand {
     color: white;
-    font-size: 30px;
+    font-size: 2.1em;
+    font-family: Helvetica, sans-serif;
 }
 
 /* Margins and padding for sections*/
