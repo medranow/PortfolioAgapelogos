@@ -90,7 +90,7 @@ h1 {
 
 /*Contact image and letter color*/
 .contact-image {
-    height: 22vh;
+    height: 22vw;
     background: url('images/leafs.jpg ');
     background-size: cover;
     position: relative;
