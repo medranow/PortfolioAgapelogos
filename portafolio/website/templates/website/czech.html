@@ -1,8 +1,8 @@
-{% extends "website/layout.html" %}
+{% extends "website/layoutCzech.html" %}
 {% load static %}
 
 {% block title %}
-    Sitio
+    Hlavná stránka
 {% endblock %}
 
 {% block body %}
@@ -11,17 +11,13 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text text-center">
-                <h1 class="hero_title text-center">Agapelogos por Walter Medrano</h1>
-                <p class="hero_desc">Soy un fotógrafo y videógrafo en Guatemala</p>
+                <h1 class="hero_title text-center">Agapelogos by Walter Medrano</h1>
+                <p class="hero_desc">Fotograf a kameraman z Guatemaly</p>
                     <div class="icons mt-4">
                             <a href="https://www.facebook.com/agapelogos5" target="_blank"> <i class="fa fa-facebook"></i></a>
                             <a href="https://www.linkedin.com/in/walmedrano/" target="_blank"> <i class="fa fa-linkedin"></i></a>
                             <a href="https://www.instagram.com/agapelogos" target="_blank"> <i class="fa fa-instagram"></i></a>
                     </div>
-                    <div>
-                        <h5 class="language"><i class="fa fa-language" aria-hidden="true"></i>English | Czech</h5>
-                    </div>
-                    
             </div>
         </div>
     </div>
@@ -30,7 +26,7 @@
 <!-- about section -->
 <section id="about" class="about-background">
     <div class="container-md mt-4 pt-0.5">
-        <h1 class="text-center">Sobre mi</h1>
+        <h1 class="text-center">O mě</h1>
         <div class="row mt-4 d-flex justify-content-center">
             <div class="col-lg-4 imageAbout">
                 <img src="{% static 'website/images/head.jpg' %}" alt="My image" class="img-thumbnail text-center">
@@ -38,16 +34,14 @@
 
             <div class="col-lg-8 text-about">
                 <p class="text-justify bio-text">
-                    Soy Walter Medrano, nacido en Quiché, Guatemala. He dedicado los últimos 8 años de mi vida a perfeccionar mi entendimiento por la luz,
-                    el movimiento y el sonido. Cada sesión y cada video que realizo tienen un aroma distintivo.
+                    Jsem Walter Medrano z Guatemaly. Posledních osm let svého života jsem zasvětil studiu a tvorbě se světlem, pohybem a zvukem.
                 </p>
                 <p class="text-justify bio-text">
-                    Fui a la universidad John Brown University en Arkansas, Estados Unidos, donde me gradué como licenciado en las artes liberales,
-                    con énfasis en cine. También poseo una maestría en relaciones internacionales por la Universidad Francisco Marroquín.
+                    Studoval jsem na John Brown University v AR, kde jsem získal titul v oboru umění se zaměřením na film (Go Eagles!). Česká Republika pro mě znamená přátele, dobré jídlo a úžasné lidi. Pokud mě chcete najít v Česku, najdete mě v Brně.
+
                 </p>
                 <p class="text-justify bio-text">
-                    Mi pasión se centra en el cine. He sido influenciado por los Tres Amigos (Guillermo del Toro, Alejandro González Iñárritu y Alfonso Cuarón) con su visión mágico realista. Estoy emocionado de poder contar tu historia.
-                </p>
+                    Moje vášeň pro film je ovlivněna "los tres amigos": Guillermo del Toro, Alejandro Iñárritu a Alfonso Cuarón. Jsem nadšený, že mohu vyprávět váš příběh!
                 
             </div>
         </div>
@@ -57,16 +51,16 @@
 <!-- portfolio section -->
     <section id="portfolio">
         <div class="container-fluid mt-4">
-            <h1 class="text-center portfolioHead">Portafolio y Servicios</h1>
+            <h1 class="text-center portfolioHead">Portfolio</h1>
             <div class="row">
                 <div class="col-lg-4 mt-4 d-flex justify-content-center">
                     <div class="card">
                         <img class="card-img-top" src="{% static 'website/images/boda.jpg' %}" alt="servicio bodas" style="width:100%">
                         <div class="card-body">
-                            <h5 class="card-title">Bodas y parejas</h5>
-                            <p class="card-text text-justify">Las bodas representan unos de los sentimientos más profundos de la vida. Quiero capturar ese momento junto a ti.</p>
+                            <h5 class="card-title">Svatby a Páry</h5>
+                            <p class="card-text text-justify">Weddings take faith and trust. I want to tell your story.</p>
                             <div class="text-center">
-                                <a href="https://waldro45138.wixsite.com/mysite/bodas" class="btn btn-light">Ver fotos</a>
+                                <a href="https://waldro45138.wixsite.com/mysite/bodas" class="btn btn-light">Podívejte se na fotografie</a>
                             </div>
                         </div>
                     </div>
@@ -76,10 +70,10 @@
                     <div class="card">
                         <img class="card-img-top" src="{% static 'website/images/indigena.jpg' %}" alt="servicio fotos" style="width:100%">
                         <div class="card-body">
-                            <h5 class="card-title">Sesiones de fotos varias</h5>
-                            <p class="card-text text-justify">Se cubren toda clase de eventos desde 15 años, cumpleaños, sesiones individuales, productos, y más. Todas nuestras sesiones tienen la garantía de ser únicas.</p>
+                            <h5 class="card-title">Různá focení</h5>
+                            <p class="card-text text-justify">Fotografie je o vyprávění příběhů. Představuji vám řadu fotografických služeb od fotografování událostí až po produkty a další.</p>
                             <div class="text-center">
-                                <a href="https://waldro45138.wixsite.com/mysite" class="btn btn-light">Ver fotos</a>
+                                <a href="https://waldro45138.wixsite.com/mysite" class="btn btn-light">Podívejte se na fotografie</a>
                             </div>
                         </div>
                     </div>
@@ -89,10 +83,10 @@
                     <div class="card">
                         <img class="card-img-top" src="{% static 'website/images/15.jpg' %}" alt="servicio fotos" style="width: 100%">
                         <div class="card-body">
-                            <h5 class="card-title">Servicio de video</h5>
-                            <p class="card-text text-justify">Mi estudios en cine y fotografía son combinados en esta única experiencia de producir el video de tus eventos, ideas y proyectos.</p>
+                            <h5 class="card-title">Video službas</h5>
+                            <p class="card-text text-justify">Video je moje vášeň. V tomto jedinečném zážitku se vyprávění příběhů setkává s pohybem a zvukem.</p>
                             <div class="text-center">
-                                <a href="https://waldro45138.wixsite.com/mysite/cine" class="btn btn-light">Ver videos</a>
+                                <a href="https://waldro45138.wixsite.com/mysite/cine" class="btn btn-light">Podívejte se na videa.</a>
                             </div>
                         </div>
                     </div>
@@ -105,14 +99,14 @@
 <!--Contact section-->
 <section class="contact-image" id="contact">
     <div class="container mt-0 pt-3 contact-info">
-        <h1 id="footer-title" class="text-center">Ponte en contácto</h1>
+        <h1 id="footer-title" class="text-center">Kontaktujte mě!</h1>
         <div class="row">
             <div class="col-sm-4 mt-3 text-center footer-text">
-                <p>Whatsapp o llamadas:</p>
+                <p>Whatsapp o phonecalls:</p>
                 <p>(502) 4684-5879</p>
             </div>
             <div class="col-sm-4 mt-3 text-center ml-auto footer-text">
-                <p>Correo:</p>
+                <p>E-mail:</p>
                 <p>waldro4513@gmail.com</p>
             </div>
         </div>
