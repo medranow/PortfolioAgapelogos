@@ -1,0 +1,129 @@
+{% extends "website/layout.html" %}
+{% load static %}
+
+{% block title %}
+    Main
+{% endblock %}
+
+{% block body %}
+ <!--main banner-->
+ <section class="image" id="home">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text text-center">
+                <h1 class="hero_title text-center">Agapelogos by Walter Medrano</h1>
+                <p class="hero_desc">Photographer and videographer based in Guatemala</p>
+                    <div class="icons mt-4">
+                            <a href="https://www.facebook.com/agapelogos5" target="_blank"> <i class="fa fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/walmedrano/" target="_blank"> <i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/agapelogos" target="_blank"> <i class="fa fa-instagram"></i></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- about section -->
+<section id="about" class="about-background">
+    <div class="container-md mt-4 pt-0.5">
+        <h1 class="text-center">About me</h1>
+        <div class="row mt-4 d-flex justify-content-center">
+            <div class="col-lg-4 imageAbout">
+                <img src="{% static 'website/images/head.jpg' %}" alt="My image" class="img-thumbnail text-center">
+            </div>
+
+            <div class="col-lg-8 text-about">
+                <p class="text-justify bio-text">
+                    I am Walter Medrano from Guatemala. I’ve dedicated the last 8 years of my life to study and create with light, movement and sound.
+                </p>
+                <p class="text-justify bio-text">
+                    I attended John Brown University, AR, where I got a degree in arts, with a focus on cinema (Go Eagles!). I then went on to get an MA in international relations at Universidad Francisco Marroquin. 
+
+                </p>
+                <p class="text-justify bio-text">
+                    My passion for cinema has been influenced by ‘los tres amigos’, literally the three friends in english: Guillermo del Toro, Alejandro Iñárritu and Alfonso Cuarón. I am bumped to tell your story!
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- portfolio section -->
+    <section id="portfolio">
+        <div class="container-fluid mt-4">
+            <h1 class="text-center portfolioHead">Portfolio y Services</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4 d-flex justify-content-center">
+                    <div class="card">
+                        <img class="card-img-top" src="{% static 'website/images/boda.jpg' %}" alt="servicio bodas" style="width:100%">
+                        <div class="card-body">
+                            <h5 class="card-title">Weddings and couples</h5>
+                            <p class="card-text text-justify">Weddings take faith and trust. I want to capture your story.</p>
+                            <div class="text-center">
+                                <a href="https://waldro45138.wixsite.com/mysite/bodas" class="btn btn-light">See pictures</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mt-4 d-flex justify-content-center">
+                    <div class="card">
+                        <img class="card-img-top" src="{% static 'website/images/indigena.jpg' %}" alt="servicio fotos" style="width:100%">
+                        <div class="card-body">
+                            <h5 class="card-title">Various photoshoots</h5>
+                            <p class="card-text text-justify">Photography is about storytelling. I present to you a range of photography services from covering events to products and more.</p>
+                            <div class="text-center">
+                                <a href="https://waldro45138.wixsite.com/mysite" class="btn btn-light">See pictures</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-lg-4 mt-4 d-flex justify-content-center">
+                    <div class="card">
+                        <img class="card-img-top" src="{% static 'website/images/15.jpg' %}" alt="servicio fotos" style="width: 100%">
+                        <div class="card-body">
+                            <h5 class="card-title">Video services</h5>
+                            <p class="card-text text-justify">My area of expertise are videos. Storytelling meets movement and sound in this unique experience.</p>
+                            <div class="text-center">
+                                <a href="https://waldro45138.wixsite.com/mysite/cine" class="btn btn-light">Watch videos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!--Contact section-->
+<section class="contact-image" id="contact">
+    <div class="container mt-0 pt-3 contact-info">
+        <h1 id="footer-title" class="text-center">Reach out!</h1>
+        <div class="row">
+            <div class="col-sm-4 mt-3 text-center footer-text">
+                <p>Whatsapp o phonecalls:</p>
+                <p>(502) 4684-5879</p>
+            </div>
+            <div class="col-sm-4 mt-3 text-center ml-auto footer-text">
+                <p>E-mail:</p>
+                <p>waldro4513@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Footer section-->
+<footer id="footer">
+    <div class="container">
+        <div class="icons mt-0">
+                <a href="https://www.facebook.com/agapelogos5" target="_blank"> <i class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/walmedrano/" target="_blank"> <i class="fa fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/agapelogos" target="_blank"> <i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+</footer> 
+  
+
+{% endblock %}
+

@@ -5,3 +5,9 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, "website/index.html")
+
+def english(request):
+    return render(request, "website/english.html")
+
+def czech(request):
+    return render(request, "website/czech.html")
