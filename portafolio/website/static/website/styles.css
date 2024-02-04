@@ -48,11 +48,19 @@ h1 {
     line-height: 1.4em;
 }
 
+.bio-text-cz {
+    font-size: 1.64em;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+
 .imageAbout {
     width: 400px;
     height: 400px;
     margin-bottom: 4em;
 }
+
 
 /*Background about section */
 .about-background {
@@ -66,11 +74,10 @@ h1 {
 .about-img-cz {
     height: 80vh;
     width: 100%;
-    background: url('images/vaclav.jpeg');
+    background: url('images/toje.JPG');
     background-size: cover;
     position: relative;
 }
-
 
 /* Icons & language */
 .fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-twitch:hover {
