@@ -14,9 +14,8 @@
                 <h1 class="hero_title text-center">Agapelogos by Walter Medrano</h1>
                 <p class="hero_desc">Fotograf a kameraman z Guatemaly</p>
                     <div class="icons mt-4">
-                            <a href="https://www.facebook.com/agapelogos5" target="_blank"> <i class="fa fa-facebook"></i></a>
-                            <a href="https://www.linkedin.com/in/walmedrano/" target="_blank"> <i class="fa fa-linkedin"></i></a>
                             <a href="https://www.instagram.com/agapelogos" target="_blank"> <i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/walmedrano/" target="_blank"> <i class="fa fa-linkedin"></i></a>
                     </div>
                     <div class="languageDiv">
                         <i class="fa fa-language" aria-hidden="true"></i><a class="language" href="{% url 'index' %}"><span class="language">Español </span></a>|<a class="language" href="{% url 'english' %}"><span class="language"> English</span></a>
@@ -37,7 +36,7 @@
 
             <div class="col-lg-8 text-about">
                 <p class="text-justify bio-text">
-                    Jsem Walter Medrano z Guatemaly. Posledních osm let svého života jsem zasvětil studiu a tvorbě se světlem, pohybem a zvukem.
+                    Tady Walter Medrano z Guatemaly. Posledních osm let svého života jsem zasvětil tvorbě se světlem, pohybem a zvukem.
                 </p>
                 <p class="text-justify bio-text">
                     Studoval jsem na John Brown University v AR, kde jsem získal titul v oboru umění se zaměřením na film (Go Eagles!). Česká Republika pro mě znamená přátele, dobré jídlo a úžasné lidi. Pokud mě chcete najít v Česku, najdete mě v Brně.
@@ -84,7 +83,7 @@
 
                  <div class="col-lg-4 mt-4 d-flex justify-content-center">
                     <div class="card">
-                        <video src="{% static 'website/images/doori.mov' %}" class="card-img-top" muted autoplay loop style="height:46.5vw"></video>
+                        <video src="{% static 'website/images/doori.mp4' %}" class="card-img-top" muted autoplay loop style="height:680px; width:100%;"></video>
                         <div class="card-body">
                             <h5 class="card-title">Video službas</h5>
                             <p class="card-text text-justify">Video je moje vášeň. V tomto jedinečném zážitku se vyprávění příběhů setkává s pohybem a zvukem.</p>
@@ -100,8 +99,8 @@
     </section>
 
 <!--Contact section-->
-<section class="contact-image" id="contact">
-    <div class="container mt-0 pt-3 contact-info">
+<section class="contact-imageCz" id="contact">
+    <div class="container mt-0 pt-3 contact-infoCz">
         <h1 id="footer-title" class="text-center">Kontaktujte mě!</h1>
         <div class="row">
             <div class="col-sm-4 mt-3 text-center footer-text">
@@ -120,9 +119,10 @@
 <footer id="footer">
     <div class="container">
         <div class="icons mt-0">
-                <a href="https://www.facebook.com/agapelogos5" target="_blank"> <i class="fa fa-facebook"></i></a>
                 <a href="https://www.linkedin.com/in/walmedrano/" target="_blank"> <i class="fa fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/agapelogos" target="_blank"> <i class="fa fa-instagram"></i></a>
+                <i class="fa fa-language" aria-hidden="true"></i><a class="language" href="{% url 'index' %}"><span class="language">Español </span></a>|<a class="language" href="{% url 'english' %}"><span class="language"> English</span></a>
+                <p class="rights">Agapelogos. All rights reserved.</p>
         </div>
     </div>
 </footer> 
